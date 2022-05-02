@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#main-container {
+    width: 1024px;
+    background-color: bisque;
+}

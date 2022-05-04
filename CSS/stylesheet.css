@@ -1,10 +1,54 @@
 body {
     margin: 0px;
     width: 100%;
-    background-color: antiquewhite;
+    height: auto;
+    background-image: url("../Images/AAAAAAAAAA.png");
+    display:flex;
+    justify-content: center;
 }
 
 #main-container {
-    width: 1024px;
-    background-color: bisque;
+    width: 100%;
+    background-color: #9daebf;
+    height: 123px;
+    border: 3pt solid #4d6682;
+}
+
+#Namebox1 {
+    margin: 10px;
+    width: 192.5px;
+    height: 36.5px;
+    background-color: #dbb687;
+    border: 2pt solid #896034;
+    font-size: 24pt;
+    padding-left: 4px;
+    font-family: 'Cormorant Garamond', serif;  
+}
+
+#Namebox2 {
+    margin: 10px;
+    width: 176px;
+    height: 36px;
+    background-color: #dbb687;
+    border: 2pt solid #896034;
+    font-size: 24pt;
+    padding-left: 4px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#logobox1 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 15px;
+    width: 111px;
+    height: 96px;
+    background-color: #dbb687;
+    border: 2pt solid #896034;
+    background-image: url(../Images/logo.png);
+    background-size: cover;
+}
+
+#octagon {
+    
 }

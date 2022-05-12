@@ -6,15 +6,17 @@ body {
     display:flex;
     justify-content: center;
 }
-
 #main-container {
     width: 100%;
-    background-color: #9daebf;
+}
+#header {
+    width: 100%;
     height: 123px;
+    background-color: #9daebf;
     border: 3px solid #4d6682;
 }
 
-#Namebox1 {
+#nameboxone {
     margin: 10px; 
     width: 192.5px;
     height: 36.5px;
@@ -25,7 +27,7 @@ body {
     font-family: 'Cormorant Garamond', serif;  
 }
 
-#Namebox2 {
+#nameboxtwo {
     margin: 10px;
     width: 176px;
     height: 36px;
@@ -43,9 +45,9 @@ body {
     margin: 15px;
     width: 111px;
     height: 96px;
+    background-image: url("/images/logo.png");
     background-color: #dbb687;
     border: 2px solid #896034;
-    background-image: url("../images/logo.png");
 }
 
 #dropdown {
@@ -53,7 +55,7 @@ body {
     height: 56px;
     background-color: #dbb687;
     position: absolute;
-    margin-top: 129px;
+    /* margin-top: px; */
     border: solid 3px #896034;
 }
 
@@ -68,11 +70,22 @@ ul {
 }
 
 #imagebox {
-    width: 988px;
-    height: 1565px;
+    width: 80%;
+    height: 565px;
     border: solid 3px #dbb687;
-    margin-top: 400px;
-    position: absolute;
+    margin-top: 300px;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+}
+
+#me {
+    width: 585px;
+    height: 428px;
+    /* align-self: center; */
+    background-image: url("/images/me-and-dogs.png");
+    background-color: aliceblue;
+
 }
 
 

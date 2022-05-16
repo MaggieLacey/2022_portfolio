@@ -8,10 +8,12 @@ body {
 }
 #main-container {
     width: 100%;
+    
+    
 }
 #header {
     width: 100%;
-    height: 123px;
+    height: 128px;
     background-color: #9daebf;
     border: 3px solid #4d6682;
 }
@@ -85,8 +87,74 @@ ul {
     /* align-self: center; */
     background-image: url("/images/me-and-dogs.png");
     background-color: aliceblue;
+    
+}
+
+#aboutme{
+    width: 629px;
+    height: 394px;
+    background-color: #9daebf;
+   
+}
+
+p {
+    font-size: 26px;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 5px;
+    margin-top: 9px;
+    padding: 5px;
 
 }
 
-
+#footer {
+    width: 100%;
+    height: 128px;
+    background-color: #9daebf;
+    border: solid 3px #4d6682;
+    margin-top: 50px;
+}
   
+#otherinfo {
+    position: absolute;
+    right: 0;
+    margin: 11px;
+    width: 241.5px;
+    height: 96px;
+    background-color: #dbb687;
+    border: solid 3px #896034;
+    font-size: 16px;
+}
+
+#projects {
+    width: 138px;
+    height: 29px;
+    background-color: #dbb687;
+    border: solid 3px #896034;
+}
+#education {
+    width: 138px;
+    height: 29px;
+    background-color: #dbb687;
+    border: solid 3px #896034;
+}
+
+#contact {
+    width: 138px;
+    height: 29px;
+    background-color: #dbb687;
+    border: solid 3px #896034;
+    font-size: 22px;
+
+}
+#infoboxs {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+#resume {
+    width: 138px;
+    height: 29px;
+    background-color: #dbb687;
+    border: solid 3px #896034;
+}
